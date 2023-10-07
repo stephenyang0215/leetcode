@@ -1,2 +1,2 @@
 # leetcode
-My works on Leetcode with programming languages, algorithms and sql. 
+The best practices on Leetcode for programming languages, algorithms and sql queries. 
