@@ -1,2 +1,2 @@
 # leetcode
-The best practices on Leetcode for programming languages, algorithms and sql queries. 
+The best practices on [Leetcode](https://leetcode.com/) for programming languages, algorithms and sql queries. 
