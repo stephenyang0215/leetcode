@@ -1,0 +1,22 @@
+176. Second Highest Salary
++-------------+------+
+| Column Name | Type |
++-------------+------+
+| id          | int  |
+| salary      | int  |
++-------------+------+
+id is the primary key (column with unique values) for this table.
+Each row of this table contains information about the salary of an employee.
+ 
+
+Write a solution to find the second highest salary from the Employee table. If there is no second highest salary, return null (return None in Pandas).
+
+/* Write your T-SQL query statement below */
+SELECT
+isnull(
+(SELECT distinct a.salary SecondHighestSalary 
+FROM
+(SELECT id, salary, dense_rank() over (ORDER by salary DESC) salary_rank
+FROM Employee) a
+WHERE salary_rank = 2)
+, null) as SecondHighestSalary
