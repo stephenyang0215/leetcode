@@ -2,5 +2,5 @@
 
 ![image](LeetCode.png)
 
-The best practices on [Leetcode](https://leetcode.com/) for programming languages, algorithms and sql queries.<br />
-All files in this folder have the corresponding leet code task found on [Leetcode Problems](https://leetcode.com/problemset/all/).
+This repository stores my best practices on [Leetcode](https://leetcode.com/) with the programming languages(Java, Python), algorithms, and SQL queries.<br />
+Each file in this repository has the corresponding LeetCode task listed on [Leetcode Problems](https://leetcode.com/problemset/all/).
